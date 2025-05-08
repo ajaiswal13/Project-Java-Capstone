@@ -5,6 +5,7 @@ import com.example.productservicecapstone.dtos.ProductResponseDto;
 import com.example.productservicecapstone.exceptions.ProductNotFoundException;
 import com.example.productservicecapstone.models.Product;
 import com.example.productservicecapstone.services.ProductService;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +17,11 @@ import java.util.List;
 public class ProductController {
     ProductService productService;
 
-    public ProductController(ProductService productService)
+    //Here qualifier is used to define which instance of ProductService interface are we passing as parameter
+    //Since we have 2 implementing classes, ProductDBService and FakeStoreProductService
+    //The name used with Qualifier is same as the name used with Service annotation for each service impl
+    //Instead of using Qualifier here, we can also add @Primary annotation on top of ProductDBService class
+    public ProductController(@Qualifier("productDBService") ProductService productService)
     {
         this.productService = productService;
     }
