@@ -1,0 +1,1 @@
+ALTER TABLE product ADD column count INT;
