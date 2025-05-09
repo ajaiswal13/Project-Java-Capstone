@@ -34,11 +34,21 @@ We installed JPA Buddy plugin
 
 What is Test Driven Development?
 Quiz 2 - very imp asked in Microsoft etc
-Flaky tests - Which important for MCQ (ex: intemittent responses)
+Flaky tests - Which important for MCQ (ex: intermittent responses)
 Flaky test  mcq example answers: Anything containing INTERMITTENT keyword
 
 Refer to notes.
 In integration testing, we only check the integration part,rest all is ignored
-In unit testing, we check all other parts except integrayion.Integration is mocked here.
+In unit testing, we check all other parts except integration. Integration is mocked here.
 
 FunctionalTests need mostly business/functional awareness than technical knowledge
+
+
+### Testing Good Practices, Mocking, Types of Doubles:
+
+Programming Languages use different sorting techniques internally to sort an array depending on various factors as
+size of array, if the array is nearly sorted etc. (Google this)
+
+Watch the video for 2 quiz (Asked in Microsoft and Goldman respectively)
+1st quiz is around 1:00:00 timestamp
+2nd quiz is at 2:05:00 timestamp
