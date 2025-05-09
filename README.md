@@ -30,3 +30,15 @@ input from user to switch between lazy and eager.
 Fetch type and fetch modes are different.
 We installed JPA Buddy plugin
 
+### Unit Testing:
+
+What is Test Driven Development?
+Quiz 2 - very imp asked in Microsoft etc
+Flaky tests - Which important for MCQ (ex: intemittent responses)
+Flaky test  mcq example answers: Anything containing INTERMITTENT keyword
+
+Refer to notes.
+In integration testing, we only check the integration part,rest all is ignored
+In unit testing, we check all other parts except integrayion.Integration is mocked here.
+
+FunctionalTests need mostly business/functional awareness than technical knowledge
