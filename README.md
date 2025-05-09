@@ -52,3 +52,8 @@ size of array, if the array is nearly sorted etc. (Google this)
 Watch the video for 2 quiz (Asked in Microsoft and Goldman respectively)
 1st quiz is around 1:00:00 timestamp
 2nd quiz is at 2:05:00 timestamp
+
+### Testing 3:
+
+Watch from 1:05:00 to 1:07:00 timestamp
+Very important from timestamp 2:07:00 till 2:12:30 - for last method of FakeStoreProductServiceTest
