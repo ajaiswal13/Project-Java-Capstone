@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -45,6 +46,10 @@ class ProductControllerTest {
         when(productService.getProductById(1L)).thenReturn(dummyProduct);
 
         ProductResponseDto productResponseDto = productController.getProductById(1L);
+
+//        If response is in form of ResponseEntity
+//        ResponseEntity<ProductResponseDto> productResponseDto = productController.getProductById(1L);
+//        assertEquals(1L,productResponseDto.getBody().getId());
 
         assertEquals(1L,productResponseDto.getId());
         assertEquals("Dummy Product",productResponseDto.getName());

@@ -57,3 +57,17 @@ Watch the video for 2 quiz (Asked in Microsoft and Goldman respectively)
 
 Watch from 1:05:00 to 1:07:00 timestamp
 Very important from timestamp 2:07:00 till 2:12:30 - for last method of FakeStoreProductServiceTest
+
+### Authentication - 1: Auth v/s Auth, Tokens, BCrypt:
+
+Watch this video to understand how BCrypt works internally - still not that clear.Take ChatGPT's help
+
+Token which is sent by user everytime it tries to do something is stored in Global cache
+as these requests can be routed by Load Balancer to ANY server and it doesn't make sense to save this token in
+Local database of servers.
+
+What is the cost factor in bcrypt control? The number of iterations that have been done
+
+What is Transport Layer Security? It makes the https connection secure
+Why do we use L7 load balancer if it can be target of data breach?
+L7 is used when we have to route on the basis of the logic mentioned in Load Balancer.
