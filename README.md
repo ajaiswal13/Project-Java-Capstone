@@ -71,3 +71,17 @@ What is the cost factor in bcrypt control? The number of iterations that have be
 What is Transport Layer Security? It makes the https connection secure
 Why do we use L7 load balancer if it can be target of data breach?
 L7 is used when we have to route on the basis of the logic mentioned in Load Balancer.
+
+### Authentication - 2: JWT, OAuth 2:
+
+Watch the video to know base64 encoding works internally or take ChatGPT's help - Might be asked in interview
+ OAuth is applicable when we are logging using third party
+
+What is symmetric and asymmetric encryption? What does WhatsApp use?
+What are refresh tokens and how are they used alongside access tokens?
+symmetric - same key is used to lock and unlock
+asymmetric - public key is used to lock and private key is used to unlock
+
+In case of Google, public key is used for verification and private key is used for signing
+
+Login into multiple devices is controlled at API level.
